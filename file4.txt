@@ -1,1 +1,43 @@
-file4 created
+package oopj;
+import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Stack;
+
+public class Ramesh {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       ArrayList <String> f = new ArrayList<>();
+       f.add("Mango");
+       f.add("Banana");
+       f.add("Plum");
+       System.out.println(f);
+       for(String s:f) {
+    	   System.out.println(s);
+       }
+       f.remove(1);
+       System.out.println(f);
+       f.remove(0);
+       System.out.println(f);
+       System.out.println(f.size());
+       ArrayList <Integer> i = new ArrayList<>();
+       i.add(2);
+       i.add(4);
+       i.add(6);
+       System.out.println(i);
+       System.out.println(i.size());     //  Collections.reverse(i);
+       
+       Stack<String> S = new Stack<>();
+       S.push("A");
+       S.push("B");
+       S.push("C");
+       System.out.println(S);
+       System.out.println(S.peek());
+       System.out.println(S.search(0));
+       
+       
+      
+	}
+
+}
